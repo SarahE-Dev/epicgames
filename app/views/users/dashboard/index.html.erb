@@ -1,0 +1,16 @@
+<div class="min-h-screen min-w-screen bg-gray-900 text-white">
+  <header class="p-4 bg-purple-700">
+    <h1 class="text-2xl">User Dashboard</h1>
+    <nav>
+      <%= link_to 'Home', root_path, class: 'text-purple-300 hover:text-purple-500' %>
+    </nav>
+  </header>
+  <main class="p-4">
+    <div class="bg-gray-800 text-white p-4 rounded-lg shadow-md">
+      <div class="text-purple-300 text-xl font-bold mb-2">Projects</div>
+      <div>
+        <%= link_to 'View Projects', projects_path, class: 'bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded' %>
+      </div>
+    </div>
+  </main>
+</div>
