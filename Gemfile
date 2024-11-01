@@ -64,4 +64,4 @@ gem "pundit", "~> 2.4"
 
 
 
-gem "pg", "~> 1.5"
+gem "pg"
